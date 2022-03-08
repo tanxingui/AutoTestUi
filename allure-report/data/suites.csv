@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 17 14:35:12 CST 2022","Mon Jan 17 14:35:12 CST 2022","865","AutoTestUi.testCases","test_login","Test_Login","","","用例标题:登录",""
+"passed","Mon Jan 17 14:35:10 CST 2022","Mon Jan 17 14:35:12 CST 2022","1346","AutoTestUi.testCases","test_login","Test_Login","","","用例标题:登录",""
+"passed","Mon Jan 17 14:35:12 CST 2022","Mon Jan 17 14:35:13 CST 2022","626","AutoTestUi.testCases","test_login","Test_Login","","","用例标题:登录",""
+"passed","Mon Jan 17 14:35:13 CST 2022","Mon Jan 17 14:35:14 CST 2022","589","AutoTestUi.testCases","test_login","Test_Login","","","用例标题:登录",""
+"passed","Mon Jan 17 14:35:05 CST 2022","Mon Jan 17 14:35:10 CST 2022","5419","AutoTestUi.testCases","test_login","Test_Login","","","用例标题:登录",""

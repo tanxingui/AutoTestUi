@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "AutoTestUi.testCases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Test_Login",
+        "children" : [ {
+          "name" : "用例标题:登录",
+          "uid" : "2870b2abe648b8c2",
+          "parentUid" : "4ab9529372e03231de8ff80b586fabb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642401305243,
+            "stop" : 1642401310662,
+            "duration" : 5419
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'今日任务'", "['xpath', '//div[text()=\"今日任务\"]']", "'tanxingui123'", "'tanxingui'" ]
+        }, {
+          "name" : "用例标题:登录",
+          "uid" : "9a74d464052b3a58",
+          "parentUid" : "4ab9529372e03231de8ff80b586fabb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642401310669,
+            "stop" : 1642401312015,
+            "duration" : 1346
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'今日任务'", "['xpath', '//div[text()=\"今日任务\"]']", "'123456'", "'tanxingui123'" ]
+        }, {
+          "name" : "用例标题:登录",
+          "uid" : "7bfa113a601a309",
+          "parentUid" : "4ab9529372e03231de8ff80b586fabb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642401312020,
+            "stop" : 1642401312885,
+            "duration" : 865
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Server: 账号或者密码错误'", "['css selector', '.el-message-box__message>p']", "'123456'", "'tanxingui'" ]
+        }, {
+          "name" : "用例标题:登录",
+          "uid" : "47e3fc6d4f221853",
+          "parentUid" : "4ab9529372e03231de8ff80b586fabb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642401312889,
+            "stop" : 1642401313515,
+            "duration" : 626
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Server: 账号不存在'", "['css selector', '.el-message-box__message>p']", "'123456'", "'tanxingui1'" ]
+        }, {
+          "name" : "用例标题:登录",
+          "uid" : "78ce0773c0574f1e",
+          "parentUid" : "4ab9529372e03231de8ff80b586fabb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642401313520,
+            "stop" : 1642401314109,
+            "duration" : 589
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'Server: 账号或者密码错误'", "['css selector', '.el-message-box__message>p']", "'12345'", "'tanxingui123'" ]
+        } ],
+        "uid" : "4ab9529372e03231de8ff80b586fabb8"
+      } ],
+      "uid" : "10fac212d5d977f0193c0651ba37917f"
+    } ],
+    "uid" : "9cbd0dc6d738349007e98372e4209166"
+  } ]
+}

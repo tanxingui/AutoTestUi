@@ -1,0 +1,10 @@
+2022-01-20 15:53:14,291 - ERROR - basepage.py[139]:Traceback (most recent call last):
+  File "D:\AutoTestUi\common\basepage.py", line 132, in UI_Assert
+    assert exp_result == result
+AssertionError
+
+2022-01-20 15:53:15,428 - ERROR - basepage.py[139]:Traceback (most recent call last):
+  File "D:\AutoTestUi\common\basepage.py", line 132, in UI_Assert
+    assert exp_result == result
+AssertionError
+

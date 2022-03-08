@@ -1,0 +1,165 @@
+{
+  "uid" : "2870b2abe648b8c2",
+  "name" : "用例标题:登录",
+  "fullName" : "AutoTestUi.testCases.test_login.Test_Login#test_Login_success",
+  "historyId" : "fee90178cd5a7c660cda821d7224af2d",
+  "time" : {
+    "start" : 1642401305243,
+    "stop" : 1642401310662,
+    "duration" : 5419
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1642401305165,
+      "stop" : 1642401305242,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "init_Auto",
+    "time" : {
+      "start" : 1642401305242,
+      "stop" : 1642401305242,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1、打开登录页填写账号密码",
+      "time" : {
+        "start" : 1642401305243,
+        "stop" : 1642401309363,
+        "duration" : 4120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "2、测试异常场景进行断言",
+      "time" : {
+        "start" : 1642401309363,
+        "stop" : 1642401310662,
+        "duration" : 1299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "init_Auto::0",
+    "time" : {
+      "start" : 1642401314113,
+      "stop" : 1642401316312,
+      "duration" : 2199
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature:登录模块测试"
+  }, {
+    "name" : "story",
+    "value" : "用户故事:登录场景"
+  }, {
+    "name" : "epic",
+    "value" : "史诗:后管UI测试"
+  }, {
+    "name" : "tag",
+    "value" : "Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AutoTestUi.testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-M2VNAKFM"
+  }, {
+    "name" : "thread",
+    "value" : "21956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "AutoTestUi.testCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'今日任务'"
+  }, {
+    "name" : "locator",
+    "value" : "['xpath', '//div[text()=\"今日任务\"]']"
+  }, {
+    "name" : "password",
+    "value" : "'tanxingui123'"
+  }, {
+    "name" : "username",
+    "value" : "'tanxingui'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Login" ]
+  },
+  "source" : "2870b2abe648b8c2.json",
+  "parameterValues" : [ "'今日任务'", "['xpath', '//div[text()=\"今日任务\"]']", "'tanxingui123'", "'tanxingui'" ]
+}

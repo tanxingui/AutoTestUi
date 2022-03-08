@@ -1,0 +1,62 @@
+# 登录页面元素
+Login_Page:
+  username_input: [ 'name', "username" ]
+  password_input: [ 'name', "password" ]
+  captcha_text_input: [ 'name', "captcha_text" ]
+  login_button: [ "css selector", "div>button>span" ]
+  mian_name: [ 'class name', "info" ]
+  mian_tuichu: [ "xpath", '//span[text()="退出账号"]' ]
+  mian_button: [ "xpath", "/html/body/div[2]/div/div[3]/button[2]" ]
+
+# 首页的元素
+Main_Page:
+  jiaofu_click: [ 'xpath', "//span[text()='交付中心']" ]
+  border_click: [ 'xpath', "//span[text()='B端订单管理']" ]
+  corder_click: [ 'xpath', "//span[text()='订单管理']" ]  # C
+  Provide_button: [ 'xpath', "//span[text()='DCC工作台']" ]
+  shopper_button: [ 'xpath', "(//span[text()='客户管理'])[1]" ]
+
+#B端新建订单
+Border_Page:
+  new_border: [ 'xpath', "//span[text()='新建订单']" ]
+  weituoren_input: [ 'xpath', '(//p[@class="title" and text()="委托人"]/parent::*//input[@type="text"])[2]' ]
+  gongsiquancheng_input: [ 'xpath', '(//p[@class="title" and text()="委托人"]/parent::*//input[@type="text"])[3]' ]
+  shehuidaima_input: [ 'xpath', '(//p[@class="title" and text()="委托人"]/parent::*//input[@type="text"])[4]' ]
+  chexing_index: [ 'xpath', '//input[@placeholder="品牌/车系/车型"]' ]
+  xialakuan_1: [ 'xpath', '//span[text()="{}"]' ]
+  xialakuan_2: [ 'xpath', '//span[text()="{}"]' ]
+  xialakuan_3: [ 'xpath', '//span[text()="{}"]' ]
+  car_color: [ 'xpath', '//span[text()="蓝色"]' ]
+
+#新建线索
+Provide_Page:
+  add_shopper_button: [ 'xpath', "//span[text()='新增线索']" ]
+  phone_number_input: [ 'xpath', '//*[@id="pane-first"]/form/div[2]/div/div[1]/input' ]
+  confirm_button: [ 'xpath', "//span[text()='确认添加']" ]
+  providename_input: [ 'xpath', '//*[@id="pane-first"]/form/div[4]/div/div/input' ]
+  affirm_button: [ 'xpath', "//button[@class='el-button el-button--default el-button--small el-button--primary ']/span" ]
+
+#新建C端订单
+Corder_Page:
+  new_corder: [ 'xpath', "//span[text()='新增订单']" ]
+  qudao_input: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[1]' ]
+  xialakuan1_text: ['xpath', '(//span[text()="其他"])[2]' ]
+  xialakuan2_text: ['xpath', '(//span[text()="现金支付"])[last()]' ]
+  xialakuan3_text: ['xpath', "(//span[text()='谭新贵'])[last()]" ]
+  kehuphone_input: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[2]' ]
+  xiading_input: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[3]' ]
+  kehu_name: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[4]' ]
+  type_index: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[5]' ]
+  dingjin: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[7]' ]
+  dcc: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[8]' ]
+  model_name: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[9]' ]
+  yiji_chexing: ['xpath', '(//span[text()="阿斯顿·马丁"])[last()]' ]
+  erji_chexing: ['xpath', "(//span[(text()='V8 Vantage')] )[last()]"]
+  sanji_chexing: ['xpath', "(//div[contains(text(),'4.0T V8')] )[last()]" ]
+  xiading_numb: [ 'xpath', '(//div[@class="el-dialog__body"]//input[@class="el-input__inner"])[11]' ]
+  xiading_png: [ 'xpath', '//input[@type="file"]' ]
+  xiading_jiahao: ['xpath', '//div[@class="no_image"]']
+  cike_button: [ 'xpath',"//span[contains(text(),'此刻')]" ]
+  queding_button: [ 'xpath',"//div[@class='el-picker-panel__footer']//button//span[contains(text(),'确定')]" ]
+  queren_button: ['xpath', "//span[text()='确认添加']" ]
+
